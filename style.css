@@ -76,11 +76,12 @@ font-weight: 600;
 }
 
 section{
-  height: 100vh;
-  margin: 0px 140px;
+ 
   margin-top: 20px;
 }
-
+.home{
+  margin: 0px  140px;
+}
 .home-content{
   display: flex;
   align-items: center;
@@ -115,14 +116,19 @@ font-weight: 600;
 section .about{
   height: 879px;
   margin-top: 100px;
-  background-image: url(./bg.png);
+  
   background-size: cover;
   background-position: center;
     background-repeat: no-repeat;
     
   
 }
-
+.about{
+  background: url(bg.png);
+  background-repeat:no-repeat ;
+  background-size: cover;
+  background-position:center;
+}
 .about-card{
   display: flex;
   align-items: center;
@@ -216,6 +222,11 @@ border-radius:10px;
 
  
 }
+.facilities div h1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 .icon{
   display: flex;
@@ -227,4 +238,167 @@ border-radius:10px;
 .icon img:nth-child(1){
   background-size: contain;
     transform: rotate(180deg);
+}
+
+.facilities{
+ background: url(bg.png),linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%);
+ 
+ height: 100vh;
+ 
+ 
+}
+
+.facilities-card{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+ 
+}
+ .title h1{
+  display: flex;
+   
+align-items: center;
+justify-content: center;
+margin-top: 60px;
+margin-bottom: 80px;
+
+font-size: 46px;
+font-weight: 700;
+}
+.facilities-card .card-1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+ width: 540.27px;
+height: 630.52px;
+ border-radius: 30px;
+ background-color: white;
+ 
+  
+}
+.facilities-card .card-1 > img{
+  width: 540.27px;
+  height: 337px;
+  margin-top:-105px ;
+  
+ 
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+ 
+}
+
+.facilities-card .card-2{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  
+  width: 601px;
+height: 630.4px;
+margin-top: -10px;
+gap: 1.5rem;
+  
+  
+}
+.facilities-card .card-2 > .card{
+   display: flex;
+   align-items: center;
+   justify-self: center;
+  flex-direction: column;
+  width: 290.69px;
+height: 304.61px;
+background-color: white;
+margin-top: 5px;
+ border-radius: 16px;
+
+}
+.facilities-card .card-2  .card > img{
+  border-radius: 16px 16px 0px 0px;
+}
+
+ .facilities-card .card-1  button{ 
+    padding: 10px  47px;
+    border-radius: 47.93px;
+
+background: rgb(60, 216, 232);
+ 
+margin-top: -20px;
+z-index: 1;
+border: none;
+
+
+} 
+.card-2 > .card  button{
+   padding: 10px  38px;
+   border-radius: 47.93px;
+   z-index: 1;
+   margin-top: -20px;
+   border: none;
+
+
+  
+}
+.card-2 > .card:nth-child(1) button{
+ 
+
+
+
+background: rgb(149, 178, 38);
+color: white;
+
+
+
+
+}
+
+.card-2 > .card:nth-child(2) button{
+    
+background: rgb(93, 88, 240);
+color: white;
+
+}
+.card-2 > .card:nth-child(3) button{
+  background: rgb(149, 178, 38);
+color: white;
+
+}
+.card-2 > .card:nth-child(4) button{
+  background: rgb(149, 178, 38);
+color: white;
+
+}
+.card-1 > h3{
+  margin: 38px 24px;
+}
+
+.card-1 > p {
+  font-size: 15.34px;
+font-weight: 500;
+margin: 15px 28px;
+
+}
+
+.vist{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+
+}
+.vist button{
+  border-radius: 12px;
+  color: white;
+  font-size: 20px;
+font-weight: 700;
+padding:  10px 42px;
+  
+/* Black */
+background: rgb(17, 17, 17);
+ 
+border: none;
+
 }
