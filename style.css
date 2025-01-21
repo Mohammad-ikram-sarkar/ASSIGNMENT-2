@@ -401,4 +401,103 @@ background: rgb(17, 17, 17);
  
 border: none;
 
+
 }
+
+
+footer{
+  display: flex;
+
+  align-items: center;
+  justify-content:space-around;
+  text-align: center;
+  height: 50vh;
+  background: rgb(1, 172, 253);
+}
+
+.about-footer .logo{
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin: 3rem;
+ 
+  height: 100px;
+}
+
+footer .logo > img{
+
+ width: 60px;
+ height: 60px;
+ background: white;
+
+}
+.logo span{
+  margin-left: 80px ;
+  color: white;
+}
+.about-footer p{
+ 
+  width: 399.02px;
+  color: white;
+}
+
+.nav ul {
+  
+  
+  
+}
+.nav{
+  margin-top:150px;
+
+
+}
+.nav ul h3{
+  font-size: 24px;
+font-weight: 700;
+height: 222px;
+ 
+
+ 
+}
+
+.nav ul nav li a{
+  color: white;
+}
+.nav ul h3{
+  color: white;
+}
+.nav ul nav{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: -100px;
+  gap: 2rem;
+ 
+
+}
+
+.social-icon{
+  
+}
+.social-icon{
+  margin-top: -10px;
+  margin-right: 40px;
+  margin-left: 40px;
+}
+.social-icon h3{
+  margin:2rem;
+  color: white;
+}
+
+.text span{
+  color:black;
+}
+.text span{
+  margin-left: -10px ;
+}
+
+.menu-icon{
+  display: none;
+}
+
